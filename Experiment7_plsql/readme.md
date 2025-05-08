@@ -1,4 +1,4 @@
-# Experiment 6: PL/SQL – Variables, Control Structures and Loops
+# Experiment 7: PL/SQL – Variables, Control Structures and Loops
 
 ```
 NAME: V. POOJAA SREE
