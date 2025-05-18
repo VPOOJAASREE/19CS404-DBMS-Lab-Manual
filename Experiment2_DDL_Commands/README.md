@@ -125,160 +125,200 @@ FOREIGN KEY(CustomerID) REFERENCES Customers(CustomerID)
 ![1](https://github.com/user-attachments/assets/41e51d3c-5ded-44a0-89ea-70cb21eb6c36)
 
 
-### QUESTION 1:
+### QUESTION 2:
+
+![2](https://github.com/user-attachments/assets/435c0b6d-aadf-449f-a3db-d7da018ecdcf)
 
 
 ### PROGRAM:
 
 ```
-
+CREATE TABLE Products (
+ProductID INTEGER PRIMARY KEY,
+ProductName TEXT NOT NULL,
+Price REAL CHECK(Price>0),
+Stock INTEGER CHECK(Stock>=0)
+);
 
 ```
 
 ### OUTPUT:
 
+![2](https://github.com/user-attachments/assets/96277173-0dd1-4522-8565-929708ceb8b1)
 
-### QUESTION 1:
+
+### QUESTION 3:
+
+![3](https://github.com/user-attachments/assets/e69816ae-01a4-4778-b7a7-162fa7a46c64)
 
 
 ### PROGRAM:
 
 ```
-
+CREATE TABLE ProjectAssignments (
+AssignmentID INTEGER PRIMARY KEY,
+EmployeeID INTEGER,
+ProjectID INTEGER,
+AssignmentDate DATE NOT NULL,
+FOREIGN KEY(EmployeeID) REFERENCES Employees(EmployeeID)
+FOREIGN KEY(ProjectID) REFERENCES Projects(ProjectID)
+);
 
 ```
 
 ### OUTPUT:
 
+![3](https://github.com/user-attachments/assets/d093b431-739f-43e7-b722-f6f5d1d92705)
 
-### QUESTION 1:
+
+### QUESTION 4:
+
+![4](https://github.com/user-attachments/assets/61e4e279-dfd7-43c3-a02d-35c6af8ca67f)
 
 
 ### PROGRAM:
 
 ```
-
+CREATE TABLE Products (
+ProductID INTEGER PRIMARY KEY,
+ProductName TEXT UNIQUE NOT NULL,
+Price REAL CHECK(Price>0),
+StockQuantity INTEGER CHECK(StockQuantity>=0)
+);
 
 ```
 
 ### OUTPUT:
 
+![4](https://github.com/user-attachments/assets/661f6c0f-1213-4447-8daa-78fe5fdf5955)
 
-### QUESTION 1:
+
+### QUESTION 5:
+
+![5](https://github.com/user-attachments/assets/722cb13b-b985-4dc4-9dea-66cccc54110d)
 
 
 ### PROGRAM:
 
 ```
-
+ALTER TABLE Companies
+RENAME COLUMN name TO first_name;
+ALTER TABLE Companies
+ADD COLUMN mobilenumber number;
+ALTER TABLE Companies
+ADD COLUMN DOB Date;
+ALTER TABLE Companies
+ADD COLUMN State varchar(30);
 
 ```
 
 ### OUTPUT:
 
+![5](https://github.com/user-attachments/assets/50ac8969-e8eb-4740-ae8a-5ec37a699cd0)
 
-### QUESTION 1:
+
+### QUESTION 6:
+
+![6](https://github.com/user-attachments/assets/b6aab97e-62d7-426a-a00f-69f34244dca6)
 
 
 ### PROGRAM:
 
 ```
+INSERT INTO  Customers
+(CustomerID, Name, Address) VALUES (306,'Diana Prince','Themyscira');
 
+INSERT INTO  Customers
+(CustomerID, Name, Address, City, ZipCode) VALUES (307,'Bruce Wayne','Wayne Mano','Gotham',10007);
+
+INSERT INTO  Customers
+(CustomerID, Name, Address, ZipCode) VALUES (308,'Peter Parker','Queens',11375);
 
 ```
 
 ### OUTPUT:
 
+![6](https://github.com/user-attachments/assets/d87f049b-f732-47f3-a3f3-f0f8a24480ac)
 
-### QUESTION 1:
+
+### QUESTION 7:
+
+![7](https://github.com/user-attachments/assets/e50ff71a-9e05-4a50-b5df-4870a9da2fb8)
 
 
 ### PROGRAM:
 
 ```
-
+INSERT INTO Student_details(Rollno,Name,Gender,Subject,MARKS)
+VALUES('201','David Lee','M','Physics','92');
 
 ```
 
 ### OUTPUT:
 
+![7](https://github.com/user-attachments/assets/c828568d-46d4-4706-af4b-c7f27d7e0ac3)
 
-### QUESTION 1:
+
+### QUESTION 8:
+
+![8](https://github.com/user-attachments/assets/8d9f8149-64b4-4bbc-b0a5-236ce625c915)
 
 
 ### PROGRAM:
 
 ```
+ALTER TABLE Companies
+ADD COLUMN designation varchar(50);
 
+ALTER TABLE Companies
+ADD COLUMN net_salary number;
 
 ```
 
 ### OUTPUT:
 
+![8](https://github.com/user-attachments/assets/dd098afc-72d1-45e7-bb53-21c89626b88a)
 
-### QUESTION 1:
+
+### QUESTION 9:
+
+![9](https://github.com/user-attachments/assets/23f31396-f6e0-47ad-a223-f986ce24f033)
 
 
 ### PROGRAM:
 
 ```
-
+CREATE TABLE Events (
+EventID INTEGER,
+EventName TEXT,
+EventDate DATE
+);
 
 ```
 
 ### OUTPUT:
 
+![9](https://github.com/user-attachments/assets/279facbd-2684-4bb4-bc3e-8d5c9f5e7109)
 
-### QUESTION 1:
+
+### QUESTION 10:
+
+![10](https://github.com/user-attachments/assets/8e881927-9a89-42b6-aead-dfc4d4a62f13)
 
 
 ### PROGRAM:
 
 ```
-
-
-```
-
-### OUTPUT:
-
-
-### QUESTION 1:
-
-
-### PROGRAM:
-
-```
-
+SELECT * FROM  Former_employees
+UNION ALL
+SELECT * FROM  Employee
 
 ```
 
 ### OUTPUT:
 
+![10](https://github.com/user-attachments/assets/9ab05989-c5a3-4a49-bb66-b2795cd79416)
 
-### QUESTION 1:
-
-
-### PROGRAM:
-
-```
-
-
-```
-
-### OUTPUT:
-
-
-### QUESTION 1:
-
-
-### PROGRAM:
-
-```
-
-
-```
-
-### OUTPUT:
 
 
 ## RESULT
