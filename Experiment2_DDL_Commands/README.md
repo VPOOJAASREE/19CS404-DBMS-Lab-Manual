@@ -105,11 +105,8 @@ CREATE TABLE Table_Name (
 
 ### QUESTION 1:
 
-Create a table named Orders with the following constraints:
+![1](https://github.com/user-attachments/assets/156372eb-fe29-4d26-8026-5f9017ce30e3)
 
-. OrderID as INTEGER should be the primary key.
-. OrderDate as DATE should be not NULL.
-. CustomerID as INTEGER should be a foreign key referencing Customers(CustomerID).
 
 ### PROGRAM:
 
