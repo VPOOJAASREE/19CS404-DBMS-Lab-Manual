@@ -102,5 +102,186 @@ CREATE TABLE Table_Name (
   col_name3 data_type DEFAULT 'default_value'
 );
 ```
+
+### QUESTION 1:
+
+Create a table named Orders with the following constraints:
+. OrderID as INTEGER should be the primary key.
+. OrderDate as DATE should be not NULL.
+. CustomerID as INTEGER should be a foreign key referencing Customers(CustomerID).
+
+### PROGRAM:
+
+```
+CREATE TABLE Orders (
+OrderID INTEGER PRIMARY KEY,
+OrderDate DATE NOT NULL,
+CustomerID INTEGER,
+FOREIGN KEY(CustomerID) REFERENCES Customers(CustomerID)
+);
+
+```
+
+### OUTPUT:
+
+![1](https://github.com/user-attachments/assets/41e51d3c-5ded-44a0-89ea-70cb21eb6c36)
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
+### QUESTION 1:
+
+
+### PROGRAM:
+
+```
+
+
+```
+
+### OUTPUT:
+
+
 ## RESULT
 Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
