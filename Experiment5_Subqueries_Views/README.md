@@ -41,6 +41,7 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```sql
 DROP VIEW view_name;
 
+
 **Question 1**
 ---
 ![1](https://github.com/user-attachments/assets/a11eef63-5fc0-4962-ac38-06ee6821875f)
