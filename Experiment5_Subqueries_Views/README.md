@@ -40,7 +40,7 @@ SELECT column1, column2 FROM table_name WHERE condition;
 **Drop View:**
 ```sql
 DROP VIEW view_name;
-
+```
 
 **Question 1**
 ---
