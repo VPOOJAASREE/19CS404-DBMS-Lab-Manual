@@ -43,15 +43,22 @@ DROP VIEW view_name;
 
 **Question 1**
 ---
+![1](https://github.com/user-attachments/assets/a11eef63-5fc0-4962-ac38-06ee6821875f)
 
 
 ```
-
+SELECT * FROM Employee
+WHERE age < (
+SELECT AVG(age)
+FROM Employee
+WHERE income > 250000
+);
 
 ```
 
 **Output:**
 
+![1](https://github.com/user-attachments/assets/6883082e-dd41-4572-b769-21860aec4403)
 
 
 
