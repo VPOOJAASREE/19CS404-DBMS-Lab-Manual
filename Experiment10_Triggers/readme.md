@@ -1,5 +1,11 @@
 # Experiment 10: PL/SQL – Triggers
 
+```
+NAME: V. POOJAA SREE
+REG. NO.: 212223040147
+
+```
+
 ## AIM
 To write and execute PL/SQL trigger programs for automating actions in response to specific table events like INSERT, UPDATE, or DELETE.
 
@@ -282,10 +288,6 @@ VALUES (1, 'Poojaa', 2500),(2,'Yugi',5000);
 ![5](https://github.com/user-attachments/assets/f495d31a-0c9c-4de6-9b7f-d13b58a06c81)
 
 ---
-
-
-## RESULT
-Thus, the PL/SQL programs using procedures and functions were written, compiled, and executed successfully.
 
 
 ## RESULT
