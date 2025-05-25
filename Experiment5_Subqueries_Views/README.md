@@ -44,7 +44,8 @@ DROP VIEW view_name;
 
 **Question 1**
 ---
-![1](https://github.com/user-attachments/assets/a11eef63-5fc0-4962-ac38-06ee6821875f)
+![1](https://github.com/user-attachments/assets/6f02cc01-182d-4d05-b275-21475562cc27)
+
 
 
 ```
@@ -59,7 +60,8 @@ WHERE income > 250000
 
 **Output:**
 
-![1](https://github.com/user-attachments/assets/6883082e-dd41-4572-b769-21860aec4403)
+![1](https://github.com/user-attachments/assets/3a15c8c5-d160-4164-bf7e-2ff919af541b)
+
 
 
 
