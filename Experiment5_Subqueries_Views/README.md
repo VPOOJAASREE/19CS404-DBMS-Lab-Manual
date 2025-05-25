@@ -34,6 +34,153 @@ SELECT column1, column2 FROM table_name WHERE condition;
 **Drop View:**
 ```sql
 DROP VIEW view_name;
+
+**Question 1**
+---
+
+
+```
+
+
+```
+
+**Output:**
+
+
+
+
+**Question 2**
+---
+
+
+
+```
+
+
+```
+
+**Output:**
+
+
+
+**Question 3**
+---
+
+
+
+```
+
+
+```
+
+**Output:**
+
+
+
+
+**Question 4**
+---
+
+
+
+```
+
+
+```
+
+**Output:**
+
+
+
+**Question 5**
+---
+
+
+
+```
+
+```
+
+**Output:**
+
+
+
+**Question 6**
+---
+
+
+
+```
+
+```
+
+**Output:**
+
+
+
+**Question 7**
+---
+
+
+```
+
+
+```
+
+**Output:**
+
+
+
+
+**Question 8**
+---
+
+
+
+```
+
+
+```
+
+**Output:**
+
+
+
+
+**Question 9**
+---
+
+
+
+```
+
+
+```
+
+**Output:**
+
+
+
+
+**Question 10**
+---
+
+
+
+```
+
+
+```
+
+**Output:**
+
+
+
+
+### Screenshot of Module 3 SEB Completion Grade:
+
+
+
 ```
 ## RESULT
 Thus, the SQL queries to implement subqueries and views have been executed successfully.
