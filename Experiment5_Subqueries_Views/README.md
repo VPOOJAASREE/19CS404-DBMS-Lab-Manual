@@ -1,5 +1,11 @@
 # Experiment 5: Subqueries and Views
 
+```
+NAME: V. POOJAA SREE
+REG.NO.: 212223040147
+
+```
+
 ## AIM
 To study and implement subqueries and views.
 
