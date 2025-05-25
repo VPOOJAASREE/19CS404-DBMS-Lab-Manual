@@ -325,6 +325,11 @@ SELECT * FROM  Employee
 
 ![10](https://github.com/user-attachments/assets/9ab05989-c5a3-4a49-bb66-b2795cd79416)
 
+### Screenshot of Module 3 SEB Completion Grade:
+
+![seb 1](https://github.com/user-attachments/assets/7276e013-937e-4c52-ba78-d3f7bbe81ab1)
+
+
 
 
 ## RESULT
